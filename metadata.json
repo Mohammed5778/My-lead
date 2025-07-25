@@ -1,0 +1,5 @@
+{
+  "name": "AI Lead Generation System",
+  "description": "An intelligent system for analyzing and generating marketing leads using AI. It integrates with Supabase for real-time data and allows for custom searches via webhooks.",
+  "requestFramePermissions": []
+}
