@@ -22,7 +22,7 @@ const SearchTab: React.FC<SearchTabProps> = ({ setStatusMessage, userId }) => {
         setStatusMessage('جاري إرسال طلب البحث...');
 
         try {
-            const webhookUrl = 'https://jipejol859.app.n8n.cloud/webhook-test/913e34d9-0aed-413a-bb03-e2a51ac0e309';
+            const webhookUrl = 'https://jipejol859.app.n8n.cloud/webhook/913e34d9-0aed-413a-bb03-e2a51ac0e309';
             const response = await fetch(webhookUrl, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
